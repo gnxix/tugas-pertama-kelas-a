@@ -1,0 +1,409 @@
+.header{
+    display:flex;
+    padding-right: 50px;
+    padding-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header h1{
+    color: #152C5B;
+}
+
+.stay{
+    color: #3252DF;
+}
+
+.pertama{
+    color: #3252DF;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #152C5B;
+}
+
+li {
+    margin-right: 15px;
+}
+
+main .show__me {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forget__your {
+    position: relative;
+    margin-right: 300px;
+}
+
+.forget__your h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: #152C5B;
+    font-weight: bolder;
+}
+
+.forget__your p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B0B0B0;
+}
+
+.forget__your button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.travel {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: bold;
+}
+
+.image3{
+    position: relative;
+    border-radius: 100px 15px 15px 15px;
+}
+
+.mostpicked h1{
+    position: relative;
+    margin-right: 300px;
+    color:#152C5B;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;  
+}
+
+.finnscon{
+    padding-left: 50px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.montigo{
+    position: relative;
+    flex-direction: column;
+}
+
+.kalpa{
+    padding-top: 25px;
+    position: relative;
+    flex-direction: column;
+}
+
+.monsarcon{
+    margin-left: 20px;
+    position: relative;
+}
+
+.caesar{
+    padding-top: 25px;
+    position: relative;
+}
+
+.tagpink{
+    position:absolute;
+    top: 0px;
+    right:0px;
+    width: 170px;
+    height: 25px;
+    border-radius: 0px 15px;
+    padding-bottom: 20px;
+    background-color: #ff498b;
+}
+.tagpink p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.tagpink2{
+    position:absolute;
+    top: 25px;
+    right:0px;
+    width: 170px;
+    height: 25px;
+    border-radius: 0px 15px;
+    padding-bottom: 20px;
+    background-color: #ff498b;
+}
+.tagpink2 p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.phrase{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    margin-bottom: 5px;
+    padding-left: 75px;
+    color: #152C5B;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.phrase2{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    color: #152C5B;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span{
+    font-weight: normal;
+}
+
+.hwbcon{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    padding-left: 50px;
+    padding-top: 1250px;
+}
+.hwb h1{
+    position: relative;
+    bottom: 0px;
+    color:#152C5B;
+    font-size: 25px;
+    text-align: left;
+}
+
+.tabbycon{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    position: relative;
+}
+
+.tabbycon span{
+    font-weight: bold;
+}
+
+.title{
+    font-weight: bold;
+    color: #152C5B;
+    font-size: 20px;
+}
+
+.title span{
+    font-weight: lighter;
+    color: #B0B0B0;
+}
+
+.angganacon{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    position: relative;
+}
+
+.seattle{
+    margin-right: 25px;
+}
+
+.hwlrcon{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    padding-left: 50px;
+    padding-top: 1600px;
+}
+.hwlr h1{
+    position: relative;
+    bottom: 0px;
+    color:#152C5B;
+    font-size: 25px;
+    text-align: left;
+}
+
+.greencon{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    position: relative;
+}
+
+.silvercon{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.awkcon{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    padding-left: 50px;
+    padding-top: 1950px;
+}
+.awk h1{
+    position: relative;
+    bottom: 0px;
+    color:#152C5B;
+    font-size: 25px;
+    text-align: left;
+}
+
+.pscon{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    position: relative;
+}
+
+.ps{
+    margin-right: 25px;
+}
+
+.mincon{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.storycon{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    padding-left: 350px;
+    padding-top: 2400px;
+    padding-right: 50px;
+}
+
+.story h3{
+    margin-left: 40px;
+    color: #152C5B;
+}
+
+.story h2{
+    margin-left: 40px;
+    color: #152C5B;
+}
+
+.story p{
+    margin-left: 40px;
+}
+
+.story button{
+    margin-left: 40px;
+    color: white;
+    background-color: #3252DF;
+    margin-top: 30px;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.star{
+    display:flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.story img{
+    border-radius: 15px 15px 15px 150px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    width: max-content;
+    padding-left: 250px;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: absolute;
+    padding-top: 1700px;
+}
+
+.caption{
+    position: relative;
+    margin-right: 100px;
+}
+
+.caption span{
+    color: #3252DF;
+}
+
+.beginners{
+    position: relative;
+    margin-left: 25px;
+    color: #152C5B;
+}
+
+.explore{
+    position: relative;
+    margin-left: 30px;
+    color: #152C5B;
+}
+
+.get{
+    position: relative;
+    margin-left: 60px;
+    color: #152C5B;
+}
+
+.footer p{
+    color: #B0B0B0;
+}
+
+.copy{
+    position: relative;
+    margin-top: 40px;
+    color: #B0B0B0;
+    text-align: center;
+    padding-top: 2000px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
